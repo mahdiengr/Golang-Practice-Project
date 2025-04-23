@@ -32,7 +32,7 @@ func display(name string, x int) {
 }
 
 func goodbyMessage() {
-	fmt.Println("----Good By-----")
+	fmt.Println("----Good Bye-----")
 }
 func main() {
 
