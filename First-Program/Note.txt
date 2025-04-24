@@ -1,0 +1,8 @@
+for custome package create 
+--go mod init example.com 
+then import "example.com/mathlib"
+must be Capital first later function name and veriable name
+-------function type----
+standard/name function/ : add(a,b int){}
+init function: you can't call this, computer calls this automatically init() init function first open
+Anonymous function

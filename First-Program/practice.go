@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func welcomeMessage() {
 	fmt.Println("Welcome to our Site")
@@ -23,9 +25,9 @@ func getTwoNumber() (int, int) {
 	return x, y
 }
 
-func add(x int, y int) int {
-	return x + y
-}
+// func add(x int, y int) int {
+// 	return x + y
+// }
 
 func display(name string, x int) {
 	fmt.Println("Hi", name, "Summation Result :", x)
@@ -36,11 +38,12 @@ func goodbyMessage() {
 }
 func main() {
 
-	welcomeMessage()
-	name := getName()
-	num1, num2 := getTwoNumber()
-	sum := add(num1, num2)
-	display(name, sum)
-	goodbyMessage()
+	// welcomeMessage()
+	// name := getName()
+	// num1, num2 := getTwoNumber()
+	// sum := add(num1, num2)
+	// display(name, sum)
+	// goodbyMessage()
+	// mathlib.Add(5, 7)
 
 }
