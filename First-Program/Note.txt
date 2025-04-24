@@ -11,3 +11,52 @@ function expression or Assign function in variable add := func(x,y int){} functi
 ----Parameter vs Argument-----
 function will be value this call Parameter
 function will send value this call Argument
+---First Order Function---
+    1. standard function/named function
+    2.Anonymous function
+    3.IIFE
+    4.Function Expression
+----Higher order Function/first class function---
+function paradigm-> haskel, racket,
+any one of the follwing 3 for higher order function/first class function
+    1.parameter-> function will be recive
+    2.will be function return
+    3. both
+example of higher order function:
+func process(a int,b int,op func(p int, q int)){
+    op(a,b)
+}
+
+func add(x int, y int){
+    z := x+y
+    fmt.Println(z)
+}
+
+func main(){
+    process(2,5, add)
+}
+--------example end-----------
+
+---example of function return--
+func call()func(x int, y int){
+    return add
+}
+
+func add(x int, y int){
+    z := x+y
+    fmt.Println(z)
+}
+
+func main(){
+    sum := call()
+    sum(4,7)
+}
+--------end example-----
+------Callback function-----
+when any (higher order function) function will be parameter/Argument recive it's call callback function
+---example Callback function---
+func process(a int,b int,op func(p int, q int)){
+    op(a,b)
+}
+----end example callback function-----
+First Class citizen -> (variable assign data)
