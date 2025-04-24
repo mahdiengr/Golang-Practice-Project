@@ -5,4 +5,9 @@ must be Capital first later function name and veriable name
 -------function type----
 standard/name function/ : add(a,b int){}
 init function: you can't call this, computer calls this automatically init() init function first open
-Anonymous function
+Anonymous function func(x,y int){}(5,7)
+Immediately Invoked Function Expression func(x,y int){}(5,7)
+function expression or Assign function in variable add := func(x,y int){} function expression must be declare before call function.
+----Parameter vs Argument-----
+function will be value this call Parameter
+function will send value this call Argument
