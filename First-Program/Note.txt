@@ -60,3 +60,26 @@ func process(a int,b int,op func(p int, q int)){
 }
 ----end example callback function-----
 First Class citizen -> (variable assign data)
+----Closure-Close over--------
+
+
+
+--------GO- Internal Memory---------
+Code segment -> All function & constant variable will be hold code segment(read only memory)
+Data segment -> All Global & static variables
+Stack -> Every when Function calls & local variables that time it's call stack frame
+Heap-Garbage collector
+-----Compile Go file----
+go run main.go-> Compile it->main-> ./main
+go build mail.go -> Compile it-> main
+
+if you executive run this command(./main)
+
+Phase:
+    1.Compilation Phase
+    2.Execution Phase
+
+-----Compilation Phase-----
+----Code Segment--
+constant variable & all function and find main function if not found then will show error.
+

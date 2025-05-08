@@ -1,8 +1,6 @@
 package mathlib
 
-import "fmt"
-
-func Add(x int, y int) {
-
-	fmt.Println(x + y)
+func Add(x int, y int) int {
+	return x + y
+	// fmt.Println(x + y)
 }

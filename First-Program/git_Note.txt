@@ -1,0 +1,9 @@
+git clone
+git init
+git add .
+git diff --what is the file change
+git status --check stage
+git commit -m "any message"
+git log --online
+git config
+git show commit_id/git show/ git show HEAD
